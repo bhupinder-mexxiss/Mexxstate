@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="">
       <div className="pt-8 lg:rounded-t-[36px] bg-white">
         <div className="container mx-auto">
-          <div className="pb-8 pt-4 xs:pb-11 sm:pb-16 md:pb-20 lg:pb-[120px] relative overflow-hidden">
+          <div className="pt-4 relative overflow-hidden">
             <div className="xs:flex flex-wrap pb-8 border-b-[1.6px] border-border1">
               <div className="w-full xs:w-1/2 lg:w-[30%] 2xl:w-1/4 mb-5 xs:mb-0">
                 <p className="text-sm sm:text-base text-text2 mb-4 xs:mb-6">
@@ -88,8 +88,8 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="text-center absolute w-full">
-              <h4 className="text-[36px] xs:text-[48px] sm:text-[68px] md:text-[90px] lg:text-[130px] uppercase text-primary opacity-[20%]">
+            <div className="text-center w-full pt-2">
+              <h4 className="text-[36px] xs:text-[48px] sm:text-[68px] md:text-[90px] lg:text-[130px] md:leading-[100px] lg:leading-[140px] uppercase text-primary opacity-[20%]">
                 REAL ESTATE
               </h4>
             </div>
