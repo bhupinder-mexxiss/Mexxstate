@@ -1,0 +1,61 @@
+.mortgage .reviewSec .slick-list {
+    overflow: visible;
+}
+
+.mortgage .reviewSec .slick-slide {
+    transition: .3s;
+    transform: scale(.8);
+}
+
+.mortgage .reviewSec .slick-slide.slick-active.slick-current {
+    transform: scale(1.2);
+}
+
+.mortgage .reviewSec .slick-slide.slick-active.slick-current:after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    bottom: -50px;
+    width: 110px;
+    height: 110px;
+    background-image: var(--quote-icon);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mortgage .reviewSec .slick-dots li button:before{
+    color: #fff;
+}
+.mortgage .reviewSec .slick-dots li.slick-active button:before{
+    color: #00858E;
+}
+@media (max-width: 1200px) {
+
+    .mortgage .reviewSec .slick-slide.slick-active.slick-current:after {
+        width: 80px;
+        height: 80px;
+        bottom: -40px;
+    }
+}
+@media (max-width: 992px) {
+    .mortgage .reviewSec .slick-slide.slick-active.slick-current:after {
+        width: 80px;
+        height: 80px;
+        right: -14px;
+        bottom: -30px;
+    }
+    .mortgage .reviewSec .slick-slide.slick-active.slick-current,
+    .mortgage .reviewSec .slick-slide {
+        transform: scale(1);
+    }
+}
+@media (max-width: 576px) {
+    .mortgage .reviewSec .slick-slide.slick-active.slick-current:after {
+        content: none;
+    }
+}
+@media (max-width: 420px) {
+    .mortgage .reviewSec .slick-slide.slick-active.slick-current:after {
+        content: none;
+    }
+}
